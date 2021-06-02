@@ -16,9 +16,13 @@ class CreateRacesTable extends Migration
         Schema::create('races', function (Blueprint $table) {
             $table->increments('id');
             $table->date('race_date');
+            $table->string('race_location', 100)->nullable()->default('text');
             $table->string('winner', 100)->nullable()->default('text');
             $table->string('second_runner', 100)->nullable()->default('text');
             $table->string('third_runner', 100)->nullable()->default('text');
+            $table->string('fourth_runner', 100)->nullable()->default('text');
+            $table->string('fifth_runner', 100)->nullable()->default('text');
+            $table->string('sixth_runner', 100)->nullable()->default('text');
             $table->timestamps();
         });
     }

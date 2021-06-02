@@ -36,6 +36,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo e(route('odds')); ?>">Get Race Odds</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/races">Races</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/locations">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/horses">Horses</a>
+                    </li>
+                    
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             <?php echo e(Auth::user()->name); ?>

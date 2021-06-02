@@ -26,8 +26,9 @@ Auth::routes();
 Route::get('/', [\App\Http\Controllers\PagesController::class, 'index']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/odds', [\App\Http\Controllers\OddsController::class, 'index'])->name('odds');
+Route::get('/locations', [\App\Http\Controllers\LocationsController::class, 'index'])->name('location');
+
 
 Route::post('/odds', [
     'uses' => 'App\Http\Controllers\OddsController@checker'
@@ -36,4 +37,7 @@ Route::post('/odds', [
 Route::resource('/races', App\Http\Controllers\RacesController::class);
 
 Route::resource('/horses', App\Http\Controllers\HorsesController::class);
+
+Route::resource('/locations', App\Http\Controllers\LocationsController::class);
+
 

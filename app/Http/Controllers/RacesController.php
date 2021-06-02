@@ -55,15 +55,36 @@ class RacesController extends Controller
             'third_runner' => 'required'
         ]);
 
-        //Create Race
-        $race = new Race;
-        $race->race_date = $request->input('race_date');
-        $race->winner = $request->input('winner');
-        $race->second_runner = $request->input('second_runner');
-        $race->third_runner = $request->input('third_runner');
-        $race->save();
+        $count_date = Race::where('race_date', $request->input('race_date'))->count();
+        $count_location = Race::where('race_location', $request->input('race_location'))->count();
 
-        return redirect('/races')->with('success', 'New Race Created');
+        if($count_date > 0 && $count_location >0) {
+            // return redirect('/races')->with('error', 'Race Already Exists');
+            $race = Race::where('race_date', $request->input('race_date'))->where('race_location', $request->input('race_location'))->first();
+                
+            $winning_horse = Horse::where('id', '=', $race->winner)->first();
+            $second_horse = Horse::where('id', '=', $race->second_runner)->first();
+            $third_horse = Horse::where('id', '=', $race->third_runner)->first();
+                
+            return view('races.show')->with('race', $race)->with('winning_horse', $winning_horse)->with('second_horse', $second_horse)->with('third_horse', $third_horse)->with('error', 'Race Already Exists');
+
+
+        } else {
+            //Create Race
+            $race = new Race;
+            $race->race_date = $request->input('race_date');
+            $race->race_location = $request->input('race_location');
+            $race->winner = $request->input('winner');
+            $race->second_runner = $request->input('second_runner');
+            $race->third_runner = $request->input('third_runner');
+            $race->fourth_runner = $request->input('fourth_runner');
+            $race->fifth_runner = $request->input('fifth_runner');
+            $race->sixth_runner = $request->input('sixth_runner');
+
+            $race->save();
+
+            return redirect('/races')->with('success', 'New Race Created');
+        }
     }
 
     /**
@@ -114,9 +135,13 @@ class RacesController extends Controller
         //Update Race
         $race = Race::find($id);
         $race->race_date = $request->input('race_date');
+        $race->race_location = $request->input('race_location');
         $race->winner = $request->input('winner');
         $race->second_runner = $request->input('second_runner');
         $race->third_runner = $request->input('third_runner');
+        $race->fourth_runner = $request->input('fourth_runner');
+        $race->fifth_runner = $request->input('fifth_runner');
+        $race->sixth_runner = $request->input('sixth_runner');
         $race->save();
 
         return redirect('/races')->with('success', 'Race Details Updated');
