@@ -14,6 +14,7 @@
                 <h3><strong>Welcome to Race Odds</strong></h3>
             </div>
             <div class="card-body">
+
                 <h5 style="text-align:center"><strong>Select Horses Below</strong></h5>
                 {!! Form::open(['action' => 'App\Http\Controllers\OddsController@checker', 'method' => 'POST']) !!}
                     <div class="form-group">
@@ -60,9 +61,9 @@
                 <h3><strong>Possible Outcomes</strong></h3>
             </div>
             <div class="card-body">
-                <h3> Winner - </h3>
-                <h4> Second - </h4>
-                <h5> Third - </h5>
+                <h3> Winner - {{$winner->horse_name ?? ''}}</h3>
+                <h4> Second - {{$second_horse->horse_name ?? ''}}</h4>
+                <h5> Third - {{$third->horse_name ?? ''}}</h5>
             </div>
         </div>
     </div>

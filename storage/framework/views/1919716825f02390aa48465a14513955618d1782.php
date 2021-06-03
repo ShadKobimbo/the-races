@@ -12,6 +12,7 @@
                 <h3><strong>Welcome to Race Odds</strong></h3>
             </div>
             <div class="card-body">
+
                 <h5 style="text-align:center"><strong>Select Horses Below</strong></h5>
                 <?php echo Form::open(['action' => 'App\Http\Controllers\OddsController@checker', 'method' => 'POST']); ?>
 
@@ -73,9 +74,9 @@
                 <h3><strong>Possible Outcomes</strong></h3>
             </div>
             <div class="card-body">
-                <h3> Winner - </h3>
-                <h4> Second - </h4>
-                <h5> Third - </h5>
+                <h3> Winner - <?php echo e($winner->horse_name ?? ''); ?></h3>
+                <h4> Second - <?php echo e($second_horse->horse_name ?? ''); ?></h4>
+                <h5> Third - <?php echo e($third->horse_name ?? ''); ?></h5>
             </div>
         </div>
     </div>
