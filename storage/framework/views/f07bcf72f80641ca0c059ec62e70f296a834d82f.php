@@ -4,11 +4,6 @@
 
 <?php $__env->startSection('content'); ?>
 
-<?php if(session('error')): ?>
-<div class="alert alert-danger">
-SAMAKI</div>
-<?php endif; ?>
-
     <div class="card bg-light">
         <div class="card-header">
             <h1><strong>Race ID</strong> - <?php echo e($race->id); ?></h1>

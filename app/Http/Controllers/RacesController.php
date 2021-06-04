@@ -52,7 +52,11 @@ class RacesController extends Controller
             'race_date' => 'required',
             'winner' => 'required',
             'second_runner' => 'required',
-            'third_runner' => 'required'
+            'third_runner' => 'required',
+            'fourth_runner' => 'required',
+            'fifth_runner' => 'required',
+            'sixth_runner' => 'required'
+
         ]);
 
         $count_date = Race::where('race_date', $request->input('race_date'))->count();
@@ -129,7 +133,10 @@ class RacesController extends Controller
             'race_date' => 'required',
             'winner' => 'required',
             'second_runner' => 'required',
-            'third_runner' => 'required'
+            'third_runner' => 'required',
+            'fourth_runner' => 'required',
+            'fifth_runner' => 'required',
+            'sixth_runner' => 'required'
         ]);
 
         //Update Race

@@ -30,7 +30,7 @@
             <div class="form-group">
                 <?php echo e(Form::label('winner', 'Race Winner')); ?>
 
-                <?php echo e(Form::select('winner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Winner'])); ?>
+                <?php echo e(Form::select('winner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Winner'])); ?>
 
             
             </div>

@@ -19,40 +19,40 @@
                     <div class="form-group">
                         <?php echo e(Form::label('option_one', 'Option One')); ?>
 
-                        <?php echo e(Form::select('option_one', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option One'])); ?>
+                        <?php echo e(Form::select('option_one', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_one'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option One'])); ?>
 
                     
                     </div>
                     <div class="form-group">
                         <?php echo e(Form::label('option_two', 'Option Two')); ?>
 
-                        <?php echo e(Form::select('option_two', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option Two'])); ?>
+                        <?php echo e(Form::select('option_two', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_two'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option Two'])); ?>
 
                     
                     </div>
                     <div class="form-group">
                         <?php echo e(Form::label('option_three', 'Option Three')); ?>
 
-                        <?php echo e(Form::select('option_three', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option Three'])); ?>
+                        <?php echo e(Form::select('option_three', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_three'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option Three'])); ?>
 
             
                     </div>
                     <div class="form-group">
                         <?php echo e(Form::label('option_four', 'Option Four')); ?>
 
-                        <?php echo e(Form::select('option_four', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option Four'])); ?>
+                        <?php echo e(Form::select('option_four', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_four'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option Four'])); ?>
 
             
                     </div><div class="form-group">
                         <?php echo e(Form::label('option_five', 'Option Five')); ?>
 
-                        <?php echo e(Form::select('option_five', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option Five'])); ?>
+                        <?php echo e(Form::select('option_five', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_five'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option Five'])); ?>
 
             
                     </div><div class="form-group">
                         <?php echo e(Form::label('option_six', 'Option Six')); ?>
 
-                        <?php echo e(Form::select('option_six', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Option Six'])); ?>
+                        <?php echo e(Form::select('option_six', $horses = Horse::pluck('horse_name', 'id'), $primary_options['option_six'] ?? '', ['class' => 'form-control', 'placeholder' => 'Option Six'])); ?>
 
             
                     </div>

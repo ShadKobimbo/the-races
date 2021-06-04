@@ -22766,3 +22766,1029 @@
 #46 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
 #47 {main}
 "} 
+[2021-06-03 11:07:50] local.ERROR: Undefined variable: primary_options (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) {"view":{"view":"/home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-223037438 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1229</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-223037438\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","winner":"<pre class=sf-dump id=sf-dump-2017326899 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1250</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2017326899\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","second_horse":"<pre class=sf-dump id=sf-dump-1922245204 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1260</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1922245204\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","third":"<pre class=sf-dump id=sf-dump-161053238 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1271</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-161053238\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: primary_options (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) at /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php:22)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php(22): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined variable: primary_options at /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php:22)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php(22): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+"} 
+[2021-06-03 11:08:05] local.ERROR: Trying to get property 'option_one' of non-object (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) {"view":{"view":"/home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1112657156 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1229</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1112657156\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","winner":"<pre class=sf-dump id=sf-dump-1124079541 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1250</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1124079541\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","second_horse":"<pre class=sf-dump id=sf-dump-1697027854 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1260</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1697027854\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","third":"<pre class=sf-dump id=sf-dump-1462816678 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1271</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1462816678\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Trying to get property 'option_one' of non-object (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) at /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php:22)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php(22): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Trying to get property 'option_one' of non-object at /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php:22)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php(22): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+"} 
+[2021-06-03 11:13:57] local.ERROR: Trying to get property 'option_one' of non-object (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) {"view":{"view":"/home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-128045806 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1229</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-128045806\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","winner":"<pre class=sf-dump id=sf-dump-1235611710 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1250</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1235611710\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","second_horse":"<pre class=sf-dump id=sf-dump-811302323 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1260</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-811302323\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","third":"<pre class=sf-dump id=sf-dump-999464534 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1271</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-999464534\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","primary_options":"<pre class=sf-dump id=sf-dump-623931029 data-indent-pad=\"  \"><span class=sf-dump-note>array:6</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>option_one</span>\" => \"<span class=sf-dump-str>6</span>\"
+  \"<span class=sf-dump-key>option_two</span>\" => \"<span class=sf-dump-str>5</span>\"
+  \"<span class=sf-dump-key>option_three</span>\" => \"<span class=sf-dump-str>4</span>\"
+  \"<span class=sf-dump-key>option_four</span>\" => \"<span class=sf-dump-str>2</span>\"
+  \"<span class=sf-dump-key>option_five</span>\" => \"<span class=sf-dump-str>3</span>\"
+  \"<span class=sf-dump-key>option_six</span>\" => \"<span class=sf-dump-str>1</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-623931029\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Trying to get property 'option_one' of non-object (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) at /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php:83)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php(83): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Trying to get property 'option_one' of non-object at /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php:83)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php(83): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+"} 
+[2021-06-03 11:14:20] local.ERROR: Undefined offset: 0 (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) {"view":{"view":"/home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2100022685 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1229</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2100022685\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","winner":"<pre class=sf-dump id=sf-dump-160096896 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1250</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Amina</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"4 characters\">shem</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:47</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-160096896\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","second_horse":"<pre class=sf-dump id=sf-dump-90133225 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1260</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>3</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">jap</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"3 characters\">tap</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:07:05</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-90133225\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","third":"<pre class=sf-dump id=sf-dump-579352383 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Horse</span> {<a class=sf-dump-ref>#1271</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"6 characters\">horses</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:5</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>horse_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">omolo</span>\"
+    \"<span class=sf-dump-key>jockey_name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">amayp</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2021-06-02 14:06:58</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-579352383\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","primary_options":"<pre class=sf-dump id=sf-dump-1859412678 data-indent-pad=\"  \"><span class=sf-dump-note>array:6</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>option_one</span>\" => \"<span class=sf-dump-str>6</span>\"
+  \"<span class=sf-dump-key>option_two</span>\" => \"<span class=sf-dump-str>5</span>\"
+  \"<span class=sf-dump-key>option_three</span>\" => \"<span class=sf-dump-str>4</span>\"
+  \"<span class=sf-dump-key>option_four</span>\" => \"<span class=sf-dump-str>2</span>\"
+  \"<span class=sf-dump-key>option_five</span>\" => \"<span class=sf-dump-str>3</span>\"
+  \"<span class=sf-dump-key>option_six</span>\" => \"<span class=sf-dump-str>1</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1859412678\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined offset: 0 (View: /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php) at /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php:83)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/resources/views/pages/odds.blade.php(83): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined offset: 0 at /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php:83)
+[stacktrace]
+#0 /home/skobimbo/Work and Study/LaravelProjects/races/storage/framework/views/1919716825f02390aa48465a14513955618d1782.php(83): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/skobimbo/...')
+#2 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#3 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#4 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#5 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get()
+#6 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get()
+#7 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#8 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#9 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#10 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(793): Illuminate\\Http\\Response->__construct()
+#12 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(763): Illuminate\\Routing\\Router::toResponse()
+#13 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(695): Illuminate\\Routing\\Router->prepareResponse()
+#14 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#17 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#19 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#21 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#23 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Session\\Middleware\\StartSession->handle()
+#24 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#26 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#28 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack()
+#31 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute()
+#32 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute()
+#33 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch()
+#34 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#35 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#38 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#41 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#43 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#45 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle()
+#47 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle()
+#49 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then()
+#51 /home/skobimbo/Work and Study/LaravelProjects/races/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#52 /home/skobimbo/Work and Study/LaravelProjects/races/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#53 /home/skobimbo/Work and Study/LaravelProjects/races/server.php(21): require_once('/home/skobimbo/...')
+#54 {main}
+"} 
