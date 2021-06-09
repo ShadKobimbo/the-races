@@ -4,6 +4,13 @@
 
 <?php $__env->startSection('content'); ?>
 
+    <?php if($error ?? ''): ?>
+        <div class="alert alert-danger">
+            <?php echo e($error ?? ''); ?>
+
+        </div>
+    <?php endif; ?>
+
     <div class="card bg-light">
         <div class="card-header">
             <h1><strong>Race ID</strong> - <?php echo e($race->id); ?></h1>

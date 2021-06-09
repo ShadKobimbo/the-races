@@ -34,16 +34,10 @@
                         <a class="nav-link" href="<?php echo e(route('home')); ?>">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo e(route('odds')); ?>">Get Race Odds</a>
+                        <a class="nav-link" href="<?php echo e(route('odds')); ?>">Race Odds</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/races">Races</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/locations">Locations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/horses">Horses</a>
+                        <a class="nav-link" href="<?php echo e(route('search')); ?>">Search</a>
                     </li>
                     
                     <li class="nav-item dropdown">

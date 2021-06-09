@@ -6,6 +6,12 @@
 
 @section('content')
 
+    @if($error ?? '')
+        <div class="alert alert-danger">
+            {{$error ?? ''}}
+        </div>
+    @endif
+
     <div class="card bg-light">
         <div class="card-header">
             <h1><strong>Race ID</strong> - {{$race->id}}</h1>

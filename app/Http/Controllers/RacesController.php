@@ -63,7 +63,6 @@ class RacesController extends Controller
         $count_location = Race::where('race_location', $request->input('race_location'))->count();
 
         if($count_date > 0 && $count_location >0) {
-            // return redirect('/races')->with('error', 'Race Already Exists');
             $race = Race::where('race_date', $request->input('race_date'))->where('race_location', $request->input('race_location'))->first();
                 
             $winning_horse = Horse::where('id', '=', $race->winner)->first();

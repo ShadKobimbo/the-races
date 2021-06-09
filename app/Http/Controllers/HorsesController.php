@@ -50,17 +50,25 @@ class HorsesController extends Controller
     {
         $this->validate($request,[
             'horse_name' => 'required',
-            'jockey_name' => 'required',
+            // 'jockey_name' => 'required',
         
         ]);
 
-        //Create Horse
-        $horse = new Horse;
-        $horse->horse_name = $request->input('horse_name');
-        $horse->jockey_name = $request->input('jockey_name');
-        $horse->save();
+        $count_horse = Horse::where('horse_name', $request->input('horse_name'))->count();
 
-        return redirect('/horses')->with('success', 'New Horse Created');
+        if($count_horse <= 0){
+            //Create Horse
+            $horse = new Horse;
+            $horse->horse_name = $request->input('horse_name');
+            $horse->jockey_name = $request->input('jockey_name');
+            $horse->save();
+
+            return redirect('/horses')->with('success', 'New Horse Created');
+        } else {
+            return redirect('/horses')->with('error', 'Horse Name Already Exists');
+        }
+
+        
     }
 
     /**
@@ -98,7 +106,7 @@ class HorsesController extends Controller
     {
         $this->validate($request,[
             'horse_name' => 'required',
-            'jockey_name' => 'required',
+            // 'jockey_name' => 'required',
         
         ]);
 

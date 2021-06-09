@@ -13,4 +13,8 @@ class PagesController extends Controller
     public function odds(){
         return view('pages.odds');
     }
+
+    public function search(){
+        return view('pages.search');
+    }
 }

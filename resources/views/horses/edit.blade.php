@@ -8,11 +8,11 @@
             {{Form::text('horse_name', $horse->horse_name, ['class' => 'form-control', 'placeholder' => 'Horse Name'])}}
 
         </div>
-        <div class="form-group">
+        {{-- <div class="form-group">
             {{Form::label('jockey_name', 'Jockey Name')}}
             {{Form::text('jockey_name', $horse->jockey_name, ['class' => 'form-control', 'placeholder' => 'Jockey Name'])}}
         
-        </div>
+        </div> --}}
         {{Form::hidden('_method', 'PUT')}}
         {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}

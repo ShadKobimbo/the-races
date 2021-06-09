@@ -7,10 +7,10 @@
             <h1><strong>Horse Name</strong> - {{$horse->horse_name}}</h1>
         </div>
 
-        <div class="card-body">
+        {{-- <div class="card-body">
             <p><strong>Jockey Name</strong> - {{$horse->jockey_name}}</p>
            
-        </div>
+        </div> --}}
         
         <div class="card-footer">
             <small>Created on {{$horse->created_at}}</small>

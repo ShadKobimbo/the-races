@@ -18,12 +18,11 @@
                 {{Form::date('race_date', '', ['class' => 'form-control'])}}
     
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 {{Form::label('race_location', 'Race Location')}}
                 {{Form::select('race_location', $locations = Location::pluck('race_location', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Location'])}}
-                {{-- {{Form::text('race_location', '', ['class' => 'form-control', 'placeholder' => 'Race Location'])}} --}}
     
-            </div>
+            </div> --}}
             <div class="form-group">
                 {{Form::label('winner', 'Race Winner')}}
                 {{Form::select('winner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Winner'])}}

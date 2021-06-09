@@ -33,9 +33,12 @@
                         <a class="nav-link" href="{{ route('home') }}">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('odds') }}">Get Race Odds</a>
+                        <a class="nav-link" href="{{ route('odds') }}">Race Odds</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('search') }}">Search</a>
+                    </li>
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="/races">Races</a>
                     </li>
                     <li class="nav-item">
@@ -43,8 +46,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/horses">Horses</a>
-                    </li>
-                    
+                    </li> --}}
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}

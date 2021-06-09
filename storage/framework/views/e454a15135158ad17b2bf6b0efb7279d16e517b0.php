@@ -9,13 +9,7 @@
 
 
         </div>
-        <div class="form-group">
-            <?php echo e(Form::label('jockey_name', 'Jockey Name')); ?>
-
-            <?php echo e(Form::text('jockey_name', $horse->jockey_name, ['class' => 'form-control', 'placeholder' => 'Jockey Name'])); ?>
-
         
-        </div>
         <?php echo e(Form::hidden('_method', 'PUT')); ?>
 
         <?php echo e(Form::submit('Submit', ['class' => 'btn btn-primary'])); ?>

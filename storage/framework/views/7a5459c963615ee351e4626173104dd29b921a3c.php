@@ -5,10 +5,7 @@
             <h1><strong>Horse Name</strong> - <?php echo e($horse->horse_name); ?></h1>
         </div>
 
-        <div class="card-body">
-            <p><strong>Jockey Name</strong> - <?php echo e($horse->jockey_name); ?></p>
-           
-        </div>
+        
         
         <div class="card-footer">
             <small>Created on <?php echo e($horse->created_at); ?></small>

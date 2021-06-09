@@ -12,21 +12,7 @@
         <div class="col-lg-4">
             <?php echo Form::open(['action' => 'App\Http\Controllers\RacesController@store', 'method' => 'POST']); ?>
 
-            <div class="form-group">
-                <?php echo e(Form::label('race_date', 'Race Date')); ?>
-
-                <?php echo e(Form::date('race_date', '', ['class' => 'form-control'])); ?>
-
-    
-            </div>
-            <div class="form-group">
-                <?php echo e(Form::label('race_location', 'Race Location')); ?>
-
-                <?php echo e(Form::select('race_location', $locations = Location::pluck('race_location', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Location'])); ?>
-
-                
-    
-            </div>
+            
             <div class="form-group">
                 <?php echo e(Form::label('winner', 'Race Winner')); ?>
 
@@ -37,35 +23,35 @@
             <div class="form-group">
                 <?php echo e(Form::label('second_runner', 'Second Runner Up')); ?>
 
-                <?php echo e(Form::select('second_runner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Second Runner Up'])); ?>
+                <?php echo e(Form::select('second_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Second Runner Up'])); ?>
 
             
             </div>
             <div class="form-group">
                 <?php echo e(Form::label('third_runner', 'Third Runner Up')); ?>
 
-                <?php echo e(Form::select('third_runner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Third Runner Up'])); ?>
+                <?php echo e(Form::select('third_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Third Runner Up'])); ?>
 
     
             </div>
             <div class="form-group">
                 <?php echo e(Form::label('fourth_runner', 'Fourth Runner Up')); ?>
 
-                <?php echo e(Form::select('fourth_runner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Fourth Runner Up'])); ?>
+                <?php echo e(Form::select('fourth_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Fourth Runner Up'])); ?>
 
     
             </div>
             <div class="form-group">
                 <?php echo e(Form::label('fifth_runner', 'Fifth Runner Up')); ?>
 
-                <?php echo e(Form::select('fifth_runner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Fifth Runner Up'])); ?>
+                <?php echo e(Form::select('fifth_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Fifth Runner Up'])); ?>
 
     
             </div>
             <div class="form-group">
                 <?php echo e(Form::label('sixth_runner', 'Sixth Runner Up')); ?>
 
-                <?php echo e(Form::select('sixth_runner', $horses = Horse::pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Sixth Runner Up'])); ?>
+                <?php echo e(Form::select('sixth_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Sixth Runner Up'])); ?>
 
     
             </div>
