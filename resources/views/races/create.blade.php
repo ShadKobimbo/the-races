@@ -13,11 +13,11 @@
         <div class="col-lg-4"></div>
         <div class="col-lg-4">
             {!! Form::open(['action' => 'App\Http\Controllers\RacesController@store', 'method' => 'POST']) !!}
-            <div class="form-group">
+            {{-- <div class="form-group">
                 {{Form::label('race_date', 'Race Date')}}
                 {{Form::date('race_date', '', ['class' => 'form-control'])}}
     
-            </div>
+            </div> --}}
             {{-- <div class="form-group">
                 {{Form::label('race_location', 'Race Location')}}
                 {{Form::select('race_location', $locations = Location::pluck('race_location', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Race Location'])}}

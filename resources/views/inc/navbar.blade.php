@@ -32,9 +32,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('home') }}">Dashboard</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="{{ route('odds') }}">Race Odds</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('search') }}">Search</a>
                     </li>

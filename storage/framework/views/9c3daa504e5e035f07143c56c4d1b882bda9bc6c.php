@@ -13,6 +13,7 @@
             <?php echo Form::open(['action' => 'App\Http\Controllers\RacesController@store', 'method' => 'POST']); ?>
 
             
+            
             <div class="form-group">
                 <?php echo e(Form::label('winner', 'Race Winner')); ?>
 

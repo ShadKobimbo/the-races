@@ -18,6 +18,7 @@ class OddsController extends Controller
 
     public function checker(Request $request)
     {
+        //Check all feilds were filled
         $this->validate($request,[
             'option_one' => 'required',
             'option_two' => 'required',

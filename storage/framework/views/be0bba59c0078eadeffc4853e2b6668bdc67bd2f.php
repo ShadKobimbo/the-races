@@ -72,10 +72,9 @@
             <div class="card-header">
                 <h3><strong>Actual Race Outcomes</strong></h3>
             </div>
-            
             <div class="card-body">
-                <?php if($races ?? ''): ?>
-                    <?php $__currentLoopData = $races ?? ''; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $race): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php if($races ?? '' ?? ''): ?>
+                    <?php $__currentLoopData = $races ?? '' ?? ''; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $race): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <div class="card bg-light">
                             <div class="card-body">
                                 <h4 class="card-title"><a href="/races/<?php echo e($race->id); ?>"><?php echo e($race->race_date); ?></a></h4>
@@ -85,7 +84,7 @@
                         <br>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 <?php else: ?>
-                    <p>Enter Horses On The Left First...
+                    <p>Enter Horses On The Left...
                 <?php endif; ?>  
             </div>
             <div class="card-footer">
@@ -94,6 +93,15 @@
                         <?php echo e($error ?? ''); ?>
 
                     </div>
+                <?php elseif($success ?? ''): ?>  
+                    <div class="alert alert-success">
+                        <?php echo e($success ?? ''); ?>
+
+                    </div>                     
+                <?php else: ?>
+                    <div class="alert alert-secondary">
+                        <p style="text-align: center;">Copyright 2021</p>
+                    </div>      
                 <?php endif; ?>
             </div>
         </div>

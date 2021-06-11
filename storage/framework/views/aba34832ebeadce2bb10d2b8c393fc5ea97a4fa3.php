@@ -33,9 +33,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo e(route('home')); ?>">Dashboard</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo e(route('odds')); ?>">Race Odds</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo e(route('search')); ?>">Search</a>
                     </li>

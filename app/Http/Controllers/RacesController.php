@@ -49,7 +49,6 @@ class RacesController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'race_date' => 'required',
             'winner' => 'required',
             'second_runner' => 'required',
             'third_runner' => 'required',
@@ -62,17 +61,17 @@ class RacesController extends Controller
         $count_date = Race::where('race_date', $request->input('race_date'))->count();
         $count_location = Race::where('race_location', $request->input('race_location'))->count();
 
-        if($count_date > 0 && $count_location >0) {
-            $race = Race::where('race_date', $request->input('race_date'))->where('race_location', $request->input('race_location'))->first();
+        // if($count_date > 0 && $count_location >0) {
+        //     $race = Race::where('race_date', $request->input('race_date'))->where('race_location', $request->input('race_location'))->first();
                 
-            $winning_horse = Horse::where('id', '=', $race->winner)->first();
-            $second_horse = Horse::where('id', '=', $race->second_runner)->first();
-            $third_horse = Horse::where('id', '=', $race->third_runner)->first();
+        //     $winning_horse = Horse::where('id', '=', $race->winner)->first();
+        //     $second_horse = Horse::where('id', '=', $race->second_runner)->first();
+        //     $third_horse = Horse::where('id', '=', $race->third_runner)->first();
                 
-            return view('races.show')->with('race', $race)->with('winning_horse', $winning_horse)->with('second_horse', $second_horse)->with('third_horse', $third_horse)->with('error', 'Race Already Exists');
+        //     return view('races.show')->with('race', $race)->with('winning_horse', $winning_horse)->with('second_horse', $second_horse)->with('third_horse', $third_horse)->with('error', 'Race Already Exists');
 
 
-        } else {
+        // } else {
             //Create Race
             $race = new Race;
             $race->race_date = $request->input('race_date');
@@ -87,7 +86,7 @@ class RacesController extends Controller
             $race->save();
 
             return redirect('/races')->with('success', 'New Race Created');
-        }
+        //}
     }
 
     /**
@@ -129,7 +128,6 @@ class RacesController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request,[
-            'race_date' => 'required',
             'winner' => 'required',
             'second_runner' => 'required',
             'third_runner' => 'required',

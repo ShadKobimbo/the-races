@@ -7,20 +7,8 @@
     <h1>Edit Race</h1>
     <?php echo Form::open(['action' => ['App\Http\Controllers\RacesController@update', $race->id], 'method' => 'POST']); ?>
 
-        <div class="form-group">
-            <?php echo e(Form::label('race_date', 'Race Date')); ?>
-
-            <?php echo e(Form::date('race_date', $race->race_date, ['class' => 'form-control'])); ?>
-
-
-        </div>
-        <div class="form-group">
-            <?php echo e(Form::label('race_location', 'Race Location')); ?>
-
-            <?php echo e(Form::select('race_location', $locations = Location::pluck('race_location', 'id'), $race->race_location, ['class' => 'form-control', 'placeholder' => 'Race Location'])); ?>
-
-
-        </div>
+        
+        
         <div class="form-group">
             <?php echo e(Form::label('winner', 'Race Winner')); ?>
 

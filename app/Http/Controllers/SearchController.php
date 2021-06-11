@@ -9,6 +9,7 @@ class SearchController extends Controller
 {
     public function search(Request $request)
     {
+        //Check all feilds were filled
         $this->validate($request,[
             'option_one' => 'required',
             'option_two' => 'required',
@@ -18,21 +19,13 @@ class SearchController extends Controller
             'option_six' => 'required'
         ]);
 
+        //pass form inputs to variables
         $option_one = $request->input('option_one');
         $option_two = $request->input('option_two');
         $option_three = $request->input('option_three');
         $option_four = $request->input('option_four');
         $option_five = $request->input('option_five');
         $option_six = $request->input('option_six');
-
-        // $races = DB::table('races')
-        //                     ->whereIn($option_one,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->orWhereIn($option_two,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->orWhereIn($option_three,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->orWhereIn($option_four,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->orWhereIn($option_five,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->orWhereIn($option_six,['winner','second_runner','third_runner','fourth_runner','fifth_runner','sixth_runner'])
-        //                     ->get();
 
         $races = Race::whereIn('winner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
                     ->whereIn('second_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
@@ -42,11 +35,22 @@ class SearchController extends Controller
                     ->whereIn('sixth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
                     ->get();
 
-        if($races != null){
-            return view('pages.search')->with('races', $races);
+        //returning initial values to re-populate the form
+        $primary_options = array(
+            'option_one' =>  $option_one,
+            'option_two' =>  $option_two,
+            'option_three' =>  $option_three,
+            'option_four' =>  $option_four,
+            'option_five' =>  $option_five,
+            'option_six' =>  $option_six
+
+        );
+
+        if(count($races) > 0){
+            return view('pages.search')->with('races', $races)->with('primary_options', $primary_options)->with('success', 'Here are similar races available in the system......');
 
         } else {
-            return view('pages.search')->with('error', 'Race not available in the system');
+            return view('pages.search')->with('error', 'No similar races are available in the system...')->with('primary_options', $primary_options);
         }
     }
 }

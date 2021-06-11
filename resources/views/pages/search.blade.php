@@ -59,10 +59,9 @@
             <div class="card-header">
                 <h3><strong>Actual Race Outcomes</strong></h3>
             </div>
-            
             <div class="card-body">
-                @if($races ?? '')
-                    @foreach ($races ?? '' as $race)
+                @if($races ?? '' ?? '')
+                    @foreach ($races ?? '' ?? '' as $race)
                         <div class="card bg-light">
                             <div class="card-body">
                                 <h4 class="card-title"><a href="/races/{{$race->id}}">{{$race->race_date}}</a></h4>
@@ -72,7 +71,7 @@
                         <br>
                     @endforeach
                 @else
-                    <p>Enter Horses On The Left First...
+                    <p>Enter Horses On The Left...
                 @endif  
             </div>
             <div class="card-footer">
@@ -80,6 +79,14 @@
                     <div class="alert alert-danger">
                         {{$error ?? ''}}
                     </div>
+                @elseif($success ?? '')  
+                    <div class="alert alert-success">
+                        {{$success ?? ''}}
+                    </div>                     
+                @else
+                    <div class="alert alert-secondary">
+                        <p style="text-align: center;">Copyright 2021</p>
+                    </div>      
                 @endif
             </div>
         </div>

@@ -14,8 +14,13 @@
         <?php $__currentLoopData = $races; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $race): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <div class="card bg-light">
                 <div class="card-body">
-                    <h4 class="card-title"><a href="/races/<?php echo e($race->id); ?>"><?php echo e($race->race_date); ?></a></h4>
-                    <small class="card-text">Created on <?php echo e($race->created_at); ?></small>
+                    <h4 class="card-title">
+                        Created on 
+                        <a href="/races/<?php echo e($race->id); ?>">                    
+                            <small class="card-text"><?php echo e($race->created_at); ?></small>
+                        </a>
+                    </h4>
+                    
                 </div>
             </div>
             <br>
