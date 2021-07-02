@@ -63,9 +63,17 @@
                 @if($races ?? '' ?? '')
                     @foreach ($races ?? '' ?? '' as $race)
                         <div class="card bg-light">
-                            <div class="card-body">
+                            {{-- <div class="card-body">
                                 <h4 class="card-title"><a href="/races/{{$race->id}}">{{$race->race_date}}</a></h4>
                                 <small class="card-text">Created on {{$race->created_at}}</small>
+                            </div> --}}
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Created on 
+                                    <a href="/races/{{$race->id}}">                    
+                                        <small class="card-text">{{$race->created_at}}</small>
+                                    </a>
+                                </h4>
                             </div>
                         </div>
                         <br>

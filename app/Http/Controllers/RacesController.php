@@ -51,10 +51,10 @@ class RacesController extends Controller
         $this->validate($request,[
             'winner' => 'required',
             'second_runner' => 'required',
-            'third_runner' => 'required',
-            'fourth_runner' => 'required',
-            'fifth_runner' => 'required',
-            'sixth_runner' => 'required'
+            'third_runner' => 'required'
+            // 'fourth_runner' => 'required',
+            // 'fifth_runner' => 'required',
+            // 'sixth_runner' => 'required'
 
         ]);
 
@@ -130,10 +130,10 @@ class RacesController extends Controller
         $this->validate($request,[
             'winner' => 'required',
             'second_runner' => 'required',
-            'third_runner' => 'required',
-            'fourth_runner' => 'required',
-            'fifth_runner' => 'required',
-            'sixth_runner' => 'required'
+            'third_runner' => 'required'
+            // 'fourth_runner' => 'required',
+            // 'fifth_runner' => 'required',
+            // 'sixth_runner' => 'required'
         ]);
 
         //Update Race

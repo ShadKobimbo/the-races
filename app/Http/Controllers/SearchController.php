@@ -27,13 +27,28 @@ class SearchController extends Controller
         $option_five = $request->input('option_five');
         $option_six = $request->input('option_six');
 
+        // $races = Race::whereIn('winner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->whereIn('second_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->whereIn('third_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->whereIn('fourth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->whereIn('fifth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->whereIn('sixth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
+        //             ->get();
+
+
         $races = Race::whereIn('winner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
                     ->whereIn('second_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
                     ->whereIn('third_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
-                    ->whereIn('fourth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
-                    ->whereIn('fifth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
-                    ->whereIn('sixth_runner',[$option_one, $option_two, $option_three, $option_four, $option_five, $option_six])
                     ->get();
+
+        // $races = Race::whereIn('winner',[$option_one, $option_two, $option_three])
+        //             ->whereIn('second_runner',[$option_one, $option_two, $option_three])
+        //             ->whereIn('third_runner',[$option_one, $option_two, $option_three])
+        //             ->orWhereIn('fourth_runner',[$option_one, $option_two, $option_three])
+        //             ->orWhereIn('fifth_runner',[$option_one, $option_two, $option_three])
+        //             ->orWhereIn('sixth_runner',[$option_one, $option_two, $option_three])
+        //             ->distinct()
+        //             ->get();
 
         //returning initial values to re-populate the form
         $primary_options = array(

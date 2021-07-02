@@ -38,7 +38,7 @@
                 {{Form::select('third_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Third Runner Up'])}}
     
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 {{Form::label('fourth_runner', 'Fourth Runner Up')}}
                 {{Form::select('fourth_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Fourth Runner Up'])}}
     
@@ -52,7 +52,7 @@
                 {{Form::label('sixth_runner', 'Sixth Runner Up')}}
                 {{Form::select('sixth_runner', $horses = Horse::orderBy('horse_name','asc')->pluck('horse_name', 'id'), null, ['class' => 'form-control', 'placeholder' => 'Sixth Runner Up'])}}
     
-            </div>
+            </div> --}}
             {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
         {!! Form::close() !!}
         </div>

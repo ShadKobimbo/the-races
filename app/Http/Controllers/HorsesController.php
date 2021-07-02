@@ -49,8 +49,7 @@ class HorsesController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'horse_name' => 'required',
-            // 'jockey_name' => 'required',
+            'horse_name' => 'required'
         
         ]);
 
@@ -129,7 +128,22 @@ class HorsesController extends Controller
     {
         //Delete Horse
         $horse = Horse::find($id);
-        $horse->delete();
-        return redirect('/horses')->with('success', 'Horse Removed');
+
+        $races = Race::whereIn('winner', $id)
+                ->orWhereIn('second_runner', $id)
+                ->orWhereIn('third_runner', $id)
+                ->orWhereIn('fourth_runner', $id)
+                ->orWhereIn('fifth_runner', $id)
+                ->orWhereIn('sixth_runner', $id)
+                ->get();
+
+        if(count($races) < 0){
+            return redirect('/horses')->with('error', 'Horse has been included in a race ');
+
+        } else {
+            $horse->delete();
+            return redirect('/horses')->with('success', 'Horse Removed');
+        }
+        
     }
 }
